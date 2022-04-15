@@ -1,0 +1,141 @@
+@font-face{
+    font-family: "HQ";
+    src: url(../Fontes/National\ Hero!.otf);
+}
+
+@font-face{
+    font-family: "DC";
+    src:url(../Fontes/DcFandom-orr4.ttf)
+}
+
+header{
+    font-family: "DC";
+    font-size: medium;
+    color: white;
+    border-bottom: solid white 1px;
+    height: 230px;
+    }
+
+#menu ul {
+	padding:0px;
+	margin:0px;
+    color: white;
+	background-color: black;
+	list-style:none;
+}
+#menu ul li { 
+    display: inline; 
+}
+
+#menu ul li a {
+    margin-left: 175px;
+	padding: 2px 10px;
+}
+
+#h1Header{
+    color: red;
+    margin-left: 45px;
+    font-size: 50px;
+}
+
+img.estilo1{
+    width: 150px;
+    height: 150px;
+}
+a{
+    font-family: "HQ";
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+#aHeader:hover{
+    color: red;
+    border-bottom: solid red 1px;
+}
+#divBusca{
+    background-color:white;
+    border:solid 1px;
+    border-radius:15px;
+    width:700px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:660px;
+  }
+
+#imgCabecalho{
+    align-items: flex-end;
+}
+
+#tableCabecalho{
+    margin-left: 200px;
+}
+
+#sectionHeader{
+    display: inline-flex;
+    margin: 0 auto;
+    align-items: center;
+    margin-left: 70px;
+}
+
+#cabecalho2{
+    margin-left: 75px;
+}
+
+#tableFooter{
+    align-items: center;
+    margin: 0 auto;
+    width: 1000px;
+}
+#menuFooter ul {
+	padding:0px;
+	margin:0px;
+    color: white;
+	background-color: black;
+	list-style:none;
+}
+
+#menuFooter ul li a {
+	padding: 2px 10px;
+}
+
+#imgFooter{
+    padding-right: 20px;
+}
+
+#divFooter{
+    margin-left: 50px;
+}
+#div2Footer{
+    margin-left: 80px;
+}
+
+#aFooter:hover{
+    color: red;
+}
+
+footer{
+    border-top: solid white 1px;
+    color: white;
+    display: inline-flex;
+}
+
+#pFooter{
+    font-family: "DC";
+    font-size: 20px;
+}
+
+main{
+    color:white;
+}
+body{
+    width: 100%;
+    background-color: black;
+}
