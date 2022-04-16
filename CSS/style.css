@@ -112,7 +112,11 @@ a{
 
 #divFooter{
     margin-left: 50px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: white;
 }
+
 #div2Footer{
     margin-left: 80px;
 }
