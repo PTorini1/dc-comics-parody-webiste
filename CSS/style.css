@@ -1,3 +1,5 @@
+/*Formatação de header e footer*/
+
 @font-face{
     font-family: "HQ";
     src: url(../Fontes/National\ Hero!.otf);
@@ -13,7 +15,7 @@ header{
     font-size: medium;
     color: white;
     border-bottom: solid white 1px;
-    height: 230px;
+    height: 200px;
     }
 
 #menu ul {
@@ -75,14 +77,14 @@ a{
 }
 
 #tableCabecalho{
-    margin-left: 200px;
+    margin-left: 199px;
 }
 
 #sectionHeader{
     display: inline-flex;
     margin: 0 auto;
     align-items: center;
-    margin-left: 70px;
+    margin-left: 50px;
 }
 
 #cabecalho2{
@@ -111,14 +113,14 @@ a{
 }
 
 #divFooter{
-    margin-left: 50px;
+    margin-left: 30px;
     border-right-width: 1px;
     border-right-style: solid;
     border-right-color: white;
 }
 
 #div2Footer{
-    margin-left: 80px;
+    margin-left: 75px;
 }
 
 #aFooter:hover{
