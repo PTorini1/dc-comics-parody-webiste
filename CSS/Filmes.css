@@ -1,58 +1,105 @@
 /*Fomatação da página filmes*/
 
-@font-face{
+@font-face {
     font-family: "Título";
     src: url(../Fontes/Far-From\ Homecoming\ Updated.otf)
 }
-@font-face{
+
+@font-face {
     font-family: "Sinopse";
     src: url(../Fontes/ComicHelvetic_Heavy.otf);
 }
 
-main{
+main {
     color: white;
 }
 
-#video1{
+#video1 {
     margin-left: 20px;
 }
 
-#p1main{
+#p1main {
     text-align: center;
     font-family: "Título";
     font-size: 50px;
+    font-weight: bold;
 }
 
-#p2main{
+#p2main {
     margin-left: 20px;
     text-align: center;
     align-content: center;
     font-family: "Sinopse";
     font-size: 50px;
-    margin-top: 150px;
-    -webkit-text-stroke-width: 3px; /* largura da borda */
-    -webkit-text-stroke-color: black; /* cor da borda */
+    margin-top: 130px;
+    -webkit-text-stroke-width: 3px;
+    /* largura da borda */
+    -webkit-text-stroke-color: black;
+    /* cor da borda */
 }
 
-#divMain{
+#divMain {
+    margin-top: 20px;
     display: inline-flex;
 }
 
-#trailer{
+#trailer {
     background: url(https://media.discordapp.net/attachments/965565632764608523/965764433244725318/167674_original.gif);
     background-size: cover;
 
     height: 75vh;
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 }
 
-#trailer2{
+#trailer2 {
     background: url(https://c.tenor.com/VlRv5nmblFgAAAAd/coringa-gjirlfriend.gif);
     background-size: cover;
 
     height: 75vh;
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
+#estiloIMG {
+    width: 500px;
+    height: 700px;
+}
+
+#divFilmes {
+    margin-top: 20px;
+    display: inline-flex;
+    margin-bottom: 40px;
+}
+
+#tituloFilme {
+    font-family: "DC";
+    font-size: 50px;
+    text-align-last: center;
+}
+
+#filmes {
+    margin-top: 30px;
+    background-image: url("https://media.discordapp.net/attachments/965565632764608523/968623276031086592/BackgroundBatman.jpg?");
+    background-size: cover;
+    opacity: 90%;
+}
+
+.carousel {
+    margin-top: 30px;
+}
+
+#btn {
+    background-color: black;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 1000px;
+}
+
+#btnC:hover{
+    color: green;
+}

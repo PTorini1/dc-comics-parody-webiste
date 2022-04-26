@@ -7,14 +7,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortchut icon" href="IMG/logo vermelha.png" type="image/x-icon">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="CSS/Index.css" type="text/css">
+    <link rel="stylesheet" href="CSS/CarouselFooter.css" type="text/css">
     <link rel="stylesheet" href="CSS/normalize.css" type="text/css">
-    <title>DC</title>
+    <!-- JavaScript  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+    <title>Home</title>
 </head>
 
 <body>
-
+    <!--Cabeçalho-->
     <header>
+
         <section id="sectionHeader">
             <div>
                 <img class="estilo1" src="IMG/logo vermelha.png">
@@ -39,22 +49,142 @@
                 </tr>
             </table>
         </section>
-        <nav id="menu">
-            <ul>
-                <li><a id="aHeader" href="Index.html">Menu</a></li>
-                <li><a id="aHeader" href="Personagens.html">Personagens</a></li>
-                <li><a id="aHeader" href="Filmes.html">Filmes</a></li>
-                <li><a id="aHeader" href="Notícias.html">Notícias</a></li>
-                <li><a id="aHeader" href="QuemSomos.html">Quem Somos</a></li>
-                <li><a id="aHeader" href="Loja.html">Loja</a></li>
-            </ul>
-        </nav>
+
+        <section>
+            <nav id="menu">
+                <ul>
+                    <li><a id="aHeader" href="Index.html">Home</a></li>
+                    <li><a id="aHeader" href="Personagens.html">Personagens</a></li>
+                    <li><a id="aHeader" href="Filmes.html">Filmes</a></li>
+                    <li><a id="aHeader" href="Notícias.html">Notícias</a></li>
+                    <li><a id="aHeader" href="QuemSomos.html">Quem Somos</a></li>
+                    <li><a id="aHeader" href="Loja.html">Loja</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section>
+            <div class="slider1">
+                <div class="slide1-track">
+                    <div class="slide1"></div>
+                    <div class="slide1"></div>
+                    <div class="slide1"></div>
+                    <div class="slide1"></div>
+                    <div class="slide1"></div>
+                    <div class="slide1"></div>
+                    <div class="slide1"></div>
+                    <div class="slide1"></div>
+                    <div class="slide1"></div>
+                    <div class="slide1"></div>
+                    <div class="slide1"></div>
+                    <div class="slide1"></div>
+                    <div class="slide1"></div>
+                    <div class="slide1"></div>
+                    <div class="slide1"></div>
+                    <div class="slide1"></div>
+                    <div class="slide1"></div>
+                    <div class="slide1"></div>
+                </div>
+            </div>
+        </section>
     </header>
 
     <main>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis temporibus iste facere deserunt minus
-        fuga non provident. Esse ipsa adipisci omnis possimus reiciendis vel nam, aspernatur dicta error itaque?
+        <section class="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="Filmes.html"><img height="650px"
+                                src="IMG/index - carrossel/deswvz5-1bed0105-1ae2-447d-b456-851d78ae6d6f.png"
+                                class="d-block w-100" alt="..."></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>CONFIRA O NOVO TRAILER DO BATMAN</h5>
+                            <a id="subtitulo" href="Filmes.html">
+                                <p classe="subtitulo">Clique para ver o trailer</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="Personagens.html"><img height="650px" src="IMG/index - carrossel/coringa.jpg"
+                                class="d-block w-100" alt="..."></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>CONFIRA A LINDA HISTÓRIA DE SUPERAÇÃO DO PASTOR CORINGA</h5>
+                            <a  id="subtitulo" href="Personagens.html">
+                                <p classe="subtitulo">Clique para se emocionar</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a><img height="650px" src="IMG/index - carrossel/liga da justiça1.jpg" class="d-block w-100"
+                                alt="..."></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>JUSTIÇA DIVINA</h5>
+                            <a  id="subtitulo" href="FilmesLista.html">
+                                <p classe="subtitulo">Clique para saber a sinopse</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden"></span>
+                </button>
+            </div>
+            <div class="carousel-item">
+                <img src="..." alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>...</h5>
+                    <p>...</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="loja">
+            <p>
+                Loja DC
+            </p>
+            <div class="LojaIndex">
+                <div>
+                    <img src="IMG/Loja/Flash.png">
+                    <a href="Loja.html"><button>Clique para ver mais produtos</button></a>
+                </div>
+                <div>
+                    <p>Confira nossos incríveis produtos na Loja. Temos bonecos para todos os gostos!  
+                    </p>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <section class="noticia">
+        <p>
+            Notícias
+        </p>
+        <div class="NoticiaIndex">
+            <div>
+                <img src="IMG/Filmes/superman.png">
+                <a href="Notícias.html"><button class="button2">Clique para ver mais notícias</button></a>
+            </div>
+            <div>
+                <p>Aqui você confere as últimas notícias da DEPOIS DE CRISTO! 
+                </p>
+            </div>
+        </div>
+    </section>
+</main>
 
     <footer>
         <div id="divFooter">
@@ -104,7 +234,8 @@
         <div id="div2Footer">
             <p></p>
             <img height="150px" width="150px" src="IMG/logo vermelha.png">
-            <p id="pFooter">Feito por:</p> <p id="pFooter">Pedro</p>
+            <p id="pFooter">Feito por:</p>
+            <p id="pFooter">Yasmin</p>
         </div>
     </footer>
 

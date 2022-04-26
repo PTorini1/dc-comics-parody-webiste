@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "DC";
+    src: url("../Fontes/DcFandom-orr4.ttf");
+}
+
+@font-face {
+    font-family: "HQ";
+    src: url("../Fontes/Hey\ Comic.otf");
+}
+
+h5 {
+    font-size: 30px;
+    font-family: "HQ";
+}
+
+.subtitulo {
+    font-size: 10px;
+}
+
+#subtitulo {
+    font-size: 25px;
+}
+
+.LojaIndex {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    background-image: url("https://media.discordapp.net/attachments/965565632764608523/968651914243870730/283e83a885b2d31c9641228e6a1a9b91.jpg");
+    background-size: cover;
+}
+
+.loja {
+    font-size: 50px;
+    text-align-last: center;
+    font-family: "HQ";
+}
+
+button {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+}
+
+button:hover {
+    color: red;
+}
+
+.NoticiaIndex {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    background-image: url("https://media.discordapp.net/attachments/965565632764608523/968655652987736094/1280px-Daily_Planet.jpg?");
+    width: 100%;
+}
+
+.noticia {
+    font-size: 75px;
+    text-align-last: center;
+    font-family: "HQ";
+    color: white;
+    -webkit-text-stroke-width: 3px;
+    /* largura da borda */
+    -webkit-text-stroke-color: black;
+    /* cor da borda */
+}
+
+.button2 {
+    margin-left: 60px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    -webkit-text-stroke-width: 3px;
+    /* largura da borda */
+    -webkit-text-stroke-color: black;
+    /* cor da borda */
+    font-size: 60px;
+}
+
+.button2:hover {
+    color: red;
+}

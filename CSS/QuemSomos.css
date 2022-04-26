@@ -1,0 +1,46 @@
+img.estilo2{
+    width: 800px;    
+   
+}
+img:hover.estilo2 {
+    transition-duration: .5s ;
+	transform: scale(1.2);
+}
+
+div.estilo2{
+  
+    margin: 0 auto;
+    background-color: black; 
+    padding: 20px;
+    text-align: center;
+}
+p.estilo2{
+    font-size: 40px;
+    font-family: "Sinopse" ;
+    color: rgb(221, 5, 5);
+    text-align: center;
+}
+p.estilo3{
+    font-size: 80px;
+    font-family: "Título";
+    color: rgb(221, 5, 5);
+    text-align: center;
+}
+
+main.estilo2{
+  box-shadow: 1px 1px 70px rgb(192, 8, 8);  
+  width: 1200px;
+  background-color: white !important ;
+  margin: 0 auto;
+}
+  
+img.estilo3{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    
+}
+img:hover.estilo3 {
+    transition-duration: .5s ;
+	transform: scale(1.2);
+}

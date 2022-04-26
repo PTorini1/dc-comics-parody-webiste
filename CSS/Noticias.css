@@ -1,0 +1,52 @@
+    
+
+h1{
+ 
+    color: black;
+    
+ }
+ h2{
+     color: red;
+     text-align: center;
+     size: 45px;
+     
+ }
+ 
+ .estilo4 table{
+     width: 800px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: rgb(187, 57, 48);
+     text-align: center;
+  
+ 
+ }
+ 
+ img.estilo4 {
+     border-radius: 32px;
+     width: 400px;
+     height: 200px;
+    
+ }
+ .estilo4{
+ width: 1000px;
+ background-color: rgb(161, 40, 40);
+ margin: 0 auto;
+ border-radius: 32px;
+ 
+ 
+ }
+ 
+ .estilo4 table{
+ width: 800px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ color: rgb(212, 60, 22);
+ text-align: center;
+ 
+ 
+ .estilo1 table{
+     width: 20%; /*Largura*/
+     padding: 20px; /*Espaçamento de itens*/
+     align-items: center;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 17px;
+ }
