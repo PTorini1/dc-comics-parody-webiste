@@ -39,6 +39,9 @@
     padding-top: 10px;
     padding-left: 90px;
     padding-right: -30px;   
+    font-family: "DC";
+    font-size: 50px;
+    text-align: center;
 }
 
 .classe1 img{
@@ -81,6 +84,8 @@ main>p{
     border-radius: 30px ;
     padding-top: 30px;
     width: 50%;
+    font-family: "HQ";
+    font-size: 30px;
 }
 
 
@@ -91,11 +96,26 @@ main>p{
     cursor: pointer;
     cursor: hand;
     border: none;
+    font-size: 30px;
+    margin-bottom: 35px;
 }
 
 .btn:hover{
     color: red;
 
+}
+
+div.button{
+    text-align-last: center;
+}
+
+button{
+    color: white;
+    background-color: black;
+    border-color: red;
+    margin-left: 1000px;
+    height: 50px;
+    margin-bottom: 50px;
 }
 
 
