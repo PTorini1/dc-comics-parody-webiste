@@ -1,6 +1,6 @@
 # DC
 
-https://ptorini1.github.io/DC/
+https://ptorini1.github.io/dc-comics-parody-webiste/
 
 It was our first project in System Development course at SENAI MANUEL GARCIA FILHO.
 
